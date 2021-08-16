@@ -6,7 +6,6 @@ import Wrapper from './wrapper'
 import Table from './table'
 import Rules from './rules'
 
-
 export const ScoreContext = createContext()
 
 const AppStyled = styled.main`
@@ -23,7 +22,6 @@ const AppStyled = styled.main`
     justify-content: space-between;
   }
 `
-
 function App() {
   const [score, setScore] = useState(0)
   return (
